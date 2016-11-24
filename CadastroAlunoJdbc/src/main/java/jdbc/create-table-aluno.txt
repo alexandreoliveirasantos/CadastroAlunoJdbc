@@ -1,0 +1,6 @@
+CREATE TABLE aluno (
+  matricula int(6) unsigned NOT NULL AUTO_INCREMENT,
+  nome varchar(30) NOT NULL,
+  curso varchar(30),
+  PRIMARY KEY (matricula)
+);
